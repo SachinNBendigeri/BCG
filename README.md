@@ -1,4 +1,4 @@
-# BCG Coding Challenge
+# BGC Coding Challenge
 The coding challenge has been broken down in to following set of activities
 1. setup: To hold all the functions to setup the spark application, including parameters reading [currently disabled]
 2. ingestion: To hold a serializable class for each kind of input that the BCG challenge needs
