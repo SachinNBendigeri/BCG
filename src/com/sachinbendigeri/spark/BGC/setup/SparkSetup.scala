@@ -101,6 +101,10 @@ object SparkSetup {
       parameters = parameters ++ Map(Constants.PARAM_BGC_TOP20MOVIES_PRICNCIPLES_TABLE->"BGC_TOP20MOVIES_PRINCIPLES")
       parameters = parameters ++ Map(Constants.PARAM_BGC_TOP20MOVIES_AKATITLES_TABLE->"BGC_TOP20MOVIES_AKATITLES")
 
+      //Partitioning for Joins
+      parameters = parameters ++ Map(Constants.PARAM_REPARTITIONING_FOR_JOIN->"20")
+
+      
     
     parameters
   }
